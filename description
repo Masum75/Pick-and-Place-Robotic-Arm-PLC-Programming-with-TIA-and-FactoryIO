@@ -1,0 +1,34 @@
+Project Title: Pick and Place Robotic Arm using PLC (TIA Portal V18) and Factory I/O
+
+Project Description:
+In this automation project, I designed and implemented a Pick and Place Robotic Arm system using Siemens S7-1200 PLC programmed in TIA Portal V18, and simulated the entire process using Factory I/O.
+
+Objective:
+To automate the process of placing small objects into large boxes, and transferring the filled boxes using a conveyor system.
+
+System Workflow:
+Small objects and empty big boxes arrive on separate conveyors.
+A robotic arm picks up the small objects one by one from the small object conveyor.
+The robotic arm places each small object into a big box positioned on another conveyor.
+After 3 small objects are placed inside a big box:
+The filled box automatically moves away from the station.
+A new empty box arrives for the next cycle.
+The entire sequence is controlled using PLC logic with counters and sensor-based triggers.
+
+Key Features:
+Used capacitive and position sensors for object detection and arm movement synchronization.
+Developed logic for pick and place sequence, box tracking, and automated replacement using counters and timers.
+Integrated and tested logic using Factory I/O, simulating a realistic industrial environment.
+
+Tools & Technologies:
+TIA Portal V18 – PLC programming (ladder logic)
+Siemens S7-1200 PLC
+Factory I/O – 3D simulation of conveyors, sensors, and robotic arm
+
+Skills Gained:
+Advanced PLC logic development
+Understanding of robotic motion coordination
+Synchronization of multi-station conveyor systems
+Hands-on experience with industrial simulation environments
+
+This project helped bridge the gap between theoretical automation knowledge and real-world industrial applications, and significantly boosted my confidence in PLC-controlled robotic systems.
